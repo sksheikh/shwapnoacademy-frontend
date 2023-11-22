@@ -314,11 +314,6 @@ a {
     margin-bottom: 80px;
 }
 
-.milestone__section__content {
-    height: 400px;
-    overflow: hidden;
-}
-
 .milestone__section__title {
     margin-bottom: 52px;
 }
@@ -391,6 +386,68 @@ a {
     font-size: 14px;
     color: #a3a3a3;
 }
+
+.milestone-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 6.5rem;
+    column-gap: 2rem;
+}
+
+.recent-blog {
+    margin-bottom: 80px;
+}
+
+/* slider  */
+
+.swippers-container {
+    height: 100%;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-color: transparent !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider-img {
+    height: 210px;
+}
+
+.slider-img img {
+    height: 100%;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    display: none;
+}
+
+.slider-icon {
+    font-size: 34px;
+    color: #f94144;
+    background-color: #000000;
+}
+
 .join-us {
     font-size: 24px;
     line-height: 32px;
