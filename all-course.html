@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <!--Bootstrap css link-->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+
+        <!--Bootstrap icon css link-->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+        />
+
+        <!--custom css link-->
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <!--Header top-->
+            <div class="header__area">
+                <div class="header__top py-2">
+                    <div class="container">
+                        <div class="header-content">
+                            <!-- moblie view icon -->
+                            <button
+                                class="bg-transparent buttton-bars"
+                                id="id-bars"
+                            >
+                                <i class="bi bi-list text-white"></i>
+                            </button>
+                            <!--top left-->
+                            <div class="d-flex align-items-center gap-3">
+                                <div class="header__left">
+                                    <span
+                                        class="d-flex align-items-center gap-2"
+                                    >
+                                        <i class="bi bi-telephone"></i>
+                                        <span>01796311449</span>
+                                    </span>
+                                </div>
+                                <div class="text-white line-text">|</div>
+                                <div class="header__left">
+                                    <span
+                                        class="d-flex align-items-center gap-2"
+                                    >
+                                        <i class="bi bi-envelope"></i>
+                                        <span>shwapnoacademy@gmail.com</span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <!--top right-->
+                            <div class="">
+                                <button class="btn btn-login">
+                                    Login/Registration
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- mobile device navbar -->
+                <div class="container" id="mobile-nav">
+                    <div class="">
+                        <!--navbar brand-->
+                        <a href="index.html" class="navbar-brand">
+                            <img
+                                src="./img/logo.png"
+                                alt="logo"
+                                class="logo img-fluid"
+                            />
+                        </a>
+
+                        <!--search form-->
+                        <form class="d-flex" role="search">
+                            <div class="input-group">
+                                <input
+                                    type="text"
+                                    class="form-control search-field"
+                                    placeholder="Search here.."
+                                />
+                                <button t class="input-group-text btn-search">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="">
+                        <!--nav items-->
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link header-nav-link fw-bold text-dark"
+                                    href=""
+                                    >আমাদের সম্পর্কে</a
+                                >
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link header-nav-link fw-bold text-dark"
+                                    href=""
+                                    >সাফল্যের গল্প</a
+                                >
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link header-nav-link fw-bold text-dark"
+                                    href=""
+                                    >ব্লগ</a
+                                >
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link header-nav-link fw-bold text-dark"
+                                    href="all-course.html"
+                                    >কোর্স সমুহ</a
+                                >
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link header-nav-link fw-bold text-dark"
+                                    href=""
+                                    >যোগাযোগ</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!--Main Header-->
+            <nav
+                id="header"
+                class="header__main navbar navbar-expand-md bg-white border-bottom"
+            >
+                <!-- Navbar content -->
+                <div class="container-md">
+                    <div class="d-flex align-items-center">
+                        <!--navbar brand-->
+                        <a href="index.html" class="navbar-brand">
+                            <img
+                                src="./img/logo.png"
+                                alt="logo"
+                                class="logo img-fluid"
+                            />
+                        </a>
+
+                        <!--search form-->
+                        <form class="d-flex" role="search">
+                            <div class="input-group">
+                                <input
+                                    type="text"
+                                    class="form-control search-field"
+                                    placeholder="Search here.."
+                                />
+                                <button t class="input-group-text btn-search">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="">
+                        <!--nav items-->
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link header-nav-link fw-bold text-dark"
+                                    href=""
+                                    >আমাদের সম্পর্কে</a
+                                >
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link header-nav-link fw-bold text-dark"
+                                    href=""
+                                    >সাফল্যের গল্প</a
+                                >
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link header-nav-link fw-bold text-dark"
+                                    href=""
+                                    >ব্লগ</a
+                                >
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link header-nav-link fw-bold text-dark"
+                                    href="all-course.html"
+                                    >কোর্স সমুহ</a
+                                >
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link header-nav-link fw-bold text-dark"
+                                    href=""
+                                    >যোগাযোগ</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="container my-5">
+                <h1 class="heading__title text-center mb-5">কোর্সেস</h1>
+                <div
+                    id="carouselExampleControls"
+                    class="carousel slide mt-5"
+                    data-bs-ride="carousel"
+                >
+                    <div class="carousel-inner">
+                        <!--items-->
+                        <div class="carousel-item active">
+                            <div class="upcomming-all-colurse">
+                                <div class="">
+                                    <a
+                                        href="course-details.html"
+                                        class="card-content"
+                                    >
+                                        <div class="card card-body p-0">
+                                            <div class="course-img">
+                                                <img
+                                                    class="p-4"
+                                                    src="img/banner_img.png"
+                                                />
+                                            </div>
+
+                                            <div
+                                                class="px-4 py-2 d-flex justify-content-center gap-2"
+                                            >
+                                                <span
+                                                    class="card-small-text rounded"
+                                                    ><i class="bi bi-stars"></i>
+                                                    ব্যাচ ৫</span
+                                                >
+                                                <span
+                                                    class="card-small-text rounded"
+                                                    ><i
+                                                        class="bi bi-people-fill"
+                                                    ></i>
+                                                    ২৫ সিট বাকি</span
+                                                >
+                                                <span
+                                                    class="card-small-text rounded"
+                                                    ><i class="bi bi-clock"></i>
+                                                    ১৪ দিন বাকি</span
+                                                >
+                                            </div>
+                                            <hr />
+
+                                            <div class="px-4 pb-4">
+                                                <h4 class="course-title">
+                                                    Advance Digital Marketing
+                                                </h4>
+                                                <p class="lh-lg">
+                                                    Lorem ipsum dolor sit amet
+                                                    ipsum dolor consectetur
+                                                    adipisicing elit. At,
+                                                    excepturi?
+                                                </p>
+
+                                                <div
+                                                    class="course_info row justify-content-between"
+                                                >
+                                                    <a
+                                                        href=""
+                                                        class="course__icon__box text-center bg-gray flex-grow-1 p-2 rounded fw-semibold"
+                                                    >
+                                                        <span
+                                                            >বিস্তারিত
+                                                            দেখি</span
+                                                        >
+                                                        <i
+                                                            class="bi bi-arrow-right font__color"
+                                                        ></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="">
+                                    <a
+                                        href="course-details.html"
+                                        class="card-content"
+                                    >
+                                        <div class="card card-body p-0">
+                                            <div class="course-img">
+                                                <img
+                                                    class="p-4"
+                                                    src="img/banner_img.png"
+                                                />
+                                            </div>
+
+                                            <div
+                                                class="px-4 py-2 d-flex justify-content-center gap-2"
+                                            >
+                                                <span
+                                                    class="card-small-text rounded"
+                                                    ><i class="bi bi-stars"></i>
+                                                    ব্যাচ ৫</span
+                                                >
+                                                <span
+                                                    class="card-small-text rounded"
+                                                    ><i
+                                                        class="bi bi-people-fill"
+                                                    ></i>
+                                                    ২৫ সিট বাকি</span
+                                                >
+                                                <span
+                                                    class="card-small-text rounded"
+                                                    ><i class="bi bi-clock"></i>
+                                                    ১৪ দিন বাকি</span
+                                                >
+                                            </div>
+                                            <hr />
+
+                                            <div class="px-4 pb-4">
+                                                <h4 class="course-title">
+                                                    Advance Digital Marketing
+                                                </h4>
+                                                <p class="lh-lg">
+                                                    Lorem ipsum dolor sit amet
+                                                    ipsum dolor consectetur
+                                                    adipisicing elit. At,
+                                                    excepturi?
+                                                </p>
+
+                                                <div
+                                                    class="course_info row justify-content-between"
+                                                >
+                                                    <a
+                                                        href=""
+                                                        class="course__icon__box text-center bg-gray flex-grow-1 p-2 rounded fw-semibold"
+                                                    >
+                                                        <span
+                                                            >বিস্তারিত
+                                                            দেখি</span
+                                                        >
+                                                        <i
+                                                            class="bi bi-arrow-right font__color"
+                                                        ></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="">
+                                    <a
+                                        href="course-details.html"
+                                        class="card-content"
+                                    >
+                                        <div class="card card-body p-0">
+                                            <div class="course-img">
+                                                <img
+                                                    class="p-4"
+                                                    src="img/banner_img.png"
+                                                />
+                                            </div>
+
+                                            <div
+                                                class="px-4 py-2 d-flex justify-content-center gap-2"
+                                            >
+                                                <span
+                                                    class="card-small-text rounded"
+                                                    ><i class="bi bi-stars"></i>
+                                                    ব্যাচ ৫</span
+                                                >
+                                                <span
+                                                    class="card-small-text rounded"
+                                                    ><i
+                                                        class="bi bi-people-fill"
+                                                    ></i>
+                                                    ২৫ সিট বাকি</span
+                                                >
+                                                <span
+                                                    class="card-small-text rounded"
+                                                    ><i class="bi bi-clock"></i>
+                                                    ১৪ দিন বাকি</span
+                                                >
+                                            </div>
+                                            <hr />
+
+                                            <div class="px-4 pb-4">
+                                                <h4 class="course-title">
+                                                    Advance Digital Marketing
+                                                </h4>
+                                                <p class="lh-lg">
+                                                    Lorem ipsum dolor sit amet
+                                                    ipsum dolor consectetur
+                                                    adipisicing elit. At,
+                                                    excepturi?
+                                                </p>
+
+                                                <div
+                                                    class="course_info row justify-content-between"
+                                                >
+                                                    <a
+                                                        href=""
+                                                        class="course__icon__box text-center bg-gray flex-grow-1 p-2 rounded fw-semibold"
+                                                    >
+                                                        <span
+                                                            >বিস্তারিত
+                                                            দেখি</span
+                                                        >
+                                                        <i
+                                                            class="bi bi-arrow-right font__color"
+                                                        ></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer_section pt-5 pb-3 border-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="">
+                        <div class="footer-logo">
+                            <img src="./img/logo.png" />
+                        </div>
+
+                        <p class="footer-description">
+                            স্বপ্ন একাডেমি বাংলাদেশের অন্যতম সেরা ই-লার্নিং
+                            স্কিল ডেভেলপমেন্ট প্ল্যাটফর্ম। দক্ষতা উন্নয়নের
+                            মাধ্যমে দেশ থেকে বেকারত্ব দূরীকরণ এবং বৈশ্বিক
+                            মানবসম্পদ তৈরিতে আমরা প্রতিশ্রুতিবদ্ধ।
+                        </p>
+                    </div>
+
+                    <!--footer item2 -->
+                    <div class="footer-item2">
+                        <div class="footer__item ms-2">
+                            <div class="footer__item--title">
+                                <h5 class="fw-bold footer-title">যোগাযোগ</h5>
+                            </div>
+                            <div class="footer__item--list">
+                                <p class="footer-contact">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <span
+                                        >পাবেল টয়ার, মাদরীপুর সদর,
+                                        মাদারীপুর-৭০০</span
+                                    >
+                                </p>
+
+                                <p class="footer-contact">
+                                    <i class="bi bi-envelope"></i>
+                                    <span>shwapnoacademy@gmail.com</span>
+                                </p>
+
+                                <p class="footer-contact">
+                                    <i class="bi bi-telephone"></i>
+                                    <span>8801910831366</span>
+                                </p>
+                            </div>
+                            <p class="social-icon">
+                                <a href="" target="_blank">
+                                    <i class="bi bi-facebook icons"></i
+                                ></a>
+                                <a href="" target="_blank">
+                                    <i class="bi bi-instagram icons"></i
+                                ></a>
+                                <a href="" target="_blank">
+                                    <i
+                                        class="bi bi-youtube icons"
+                                        style="font-size: 22px"
+                                    ></i
+                                ></a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--footer item3 -->
+                    <div class="footer-item3">
+                        <div class="footer__item ms-2">
+                            <div class="footer__item--title">
+                                <h5 class="fw-bold footer-title">
+                                    জনপ্রিয় কোর্স
+                                </h5>
+                            </div>
+                            <div class="footer__item--list">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item mb-2">
+                                        <a href="" class="footer-link"
+                                            >ডিজিটাল মার্কেটিং</a
+                                        >
+                                    </li>
+                                    <li class="nav-item mb-2">
+                                        <a href="" class="footer-link"
+                                            >মাইক্রোসফট অফিস</a
+                                        >
+                                    </li>
+                                    <li class="nav-item mb-2">
+                                        <a href="" class="footer-link"
+                                            >লিডনোরেশন</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="footer-link"
+                                            >ইউটিউব মার্কেটিং</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer item">
+                        <div class="footer__item">
+                            <div class="footer__item--title">
+                                <h5 class="fw-bold footer-title">অন্যান্য</h5>
+                            </div>
+                            <div class="footer__item--list">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item mb-2">
+                                        <a href="" class="footer-link"
+                                            >স্বপ্ন একাডেমি সম্পর্কে জানুন</a
+                                        >
+                                    </li>
+                                    <li class="nav-item mb-2">
+                                        <a href="" class="footer-link"
+                                            >যোগাযোগ করুন</a
+                                        >
+                                    </li>
+                                    <li class="nav-item mb-2">
+                                        <a href="" class="footer-link">ব্লগ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <x-link href="" class="footer-link"
+                                            >সাফল্যের গল্প</x-link
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <p class="copy">
+                    ©Copyright 2023 Shwapno Academy. All rights reserved.
+                    <span class="fw-bold"
+                        >Design Developed by (Flash IT Pro)</span
+                    >
+                </p>
+            </div>
+        </footer>
+
+        <!-- Bootstrap scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script src="./js/app.js"></script>
+    </body>
+</html>

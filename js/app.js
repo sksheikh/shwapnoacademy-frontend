@@ -11,3 +11,16 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+
+// mobile nav
+document.addEventListener('DOMContentLoaded', function () {
+    // Get references to the elements
+    var barsButton = document.getElementById('id-bars');
+    var mobileNav = document.getElementById('mobile-nav');
+
+    // Add a click event listener to the bars button
+    barsButton.addEventListener('click', function () {
+        // Toggle the visibility of the mobile navigation
+        mobileNav.classList.toggle('visible');
+    });
+});
