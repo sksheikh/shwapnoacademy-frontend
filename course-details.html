@@ -1,0 +1,1551 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <!--Bootstrap css link-->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+
+        <!--Bootstrap icon css link-->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+        />
+
+        <!--custom css link-->
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <!--Header top-->
+            <div class="header__area">
+                <div class="header__top py-2">
+                    <div class="container">
+                        <div class="header-content">
+                            <!-- moblie view icon -->
+                            <button
+                                class="bg-transparent buttton-bars"
+                                id="id-bars"
+                            >
+                                <i class="bi bi-list text-white"></i>
+                            </button>
+                            <!--top left-->
+                            <div class="d-flex align-items-center gap-3">
+                                <div class="header__left">
+                                    <span
+                                        class="d-flex align-items-center gap-2"
+                                    >
+                                        <i class="bi bi-telephone"></i>
+                                        <span>01796311449</span>
+                                    </span>
+                                </div>
+                                <div class="text-white line-text">|</div>
+                                <div class="header__left">
+                                    <span
+                                        class="d-flex align-items-center gap-2"
+                                    >
+                                        <i class="bi bi-envelope"></i>
+                                        <span>shwapnoacademy@gmail.com</span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <!--top right-->
+                            <div class="">
+                                <button class="btn btn-login">
+                                    Login/Registration
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- mobile device navbar -->
+                <div class="container" id="mobile-nav">
+                    <div class="">
+                        <!--navbar brand-->
+                        <a href="index.html" class="navbar-brand">
+                            <img
+                                src="./img/logo.png"
+                                alt="logo"
+                                class="logo img-fluid"
+                            />
+                        </a>
+
+                        <!--search form-->
+                        <form class="d-flex" role="search">
+                            <div class="input-group">
+                                <input
+                                    type="text"
+                                    class="form-control search-field"
+                                    placeholder="Search here.."
+                                />
+                                <button t class="input-group-text btn-search">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="">
+                        <!--nav items-->
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link header-nav-link fw-bold text-dark"
+                                    href=""
+                                    >আমাদের সম্পর্কে</a
+                                >
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link header-nav-link fw-bold text-dark"
+                                    href=""
+                                    >সাফল্যের গল্প</a
+                                >
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link header-nav-link fw-bold text-dark"
+                                    href=""
+                                    >ব্লগ</a
+                                >
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link header-nav-link fw-bold text-dark"
+                                    href="all-course.html"
+                                    >কোর্স সমুহ</a
+                                >
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link header-nav-link fw-bold text-dark"
+                                    href=""
+                                    >যোগাযোগ</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!--Main Header-->
+            <nav
+                id="header"
+                class="header__main navbar navbar-expand-md bg-white border-bottom"
+            >
+                <!-- Navbar content -->
+                <div class="container-md">
+                    <div class="d-flex align-items-center">
+                        <!--navbar brand-->
+                        <a href="index.html" class="navbar-brand">
+                            <img
+                                src="./img/logo.png"
+                                alt="logo"
+                                class="logo img-fluid"
+                            />
+                        </a>
+
+                        <!--search form-->
+                        <form class="d-flex" role="search">
+                            <div class="input-group">
+                                <input
+                                    type="text"
+                                    class="form-control search-field"
+                                    placeholder="Search here.."
+                                />
+                                <button t class="input-group-text btn-search">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="">
+                        <!--nav items-->
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link header-nav-link fw-bold text-dark"
+                                    href=""
+                                    >আমাদের সম্পর্কে</a
+                                >
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link header-nav-link fw-bold text-dark"
+                                    href=""
+                                    >সাফল্যের গল্প</a
+                                >
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link header-nav-link fw-bold text-dark"
+                                    href=""
+                                    >ব্লগ</a
+                                >
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link header-nav-link fw-bold text-dark"
+                                    href="all-course.html"
+                                    >কোর্স সমুহ</a
+                                >
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link header-nav-link fw-bold text-dark"
+                                    href=""
+                                    >যোগাযোগ</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="container course-container">
+                <div class="course-details-left">
+                    <h1 class="heading__title">Advance Digital Marketing</h1>
+                    <p class="lh-lg" style="text-align: justify">
+                        দেশি বিদেশি টেক কোম্পানিগুলোর কোডিং ইন্টারভিউ ক্র্যাক
+                        করার জন্য প্রয়োজনীয় প্রবলেম সলভিং স্কিল ডেভেলপ করুন এই
+                        কোর্সে। কোডিং ইন্টারভিউ রিলেটেড প্রবলেমগুলো আমরা সলভ
+                        করবো C++/ PHP/ Python/ Javascript ল্যাংগুয়েজ ব্যবহার
+                        করে।
+                    </p>
+
+                    <div class="my-5 course-time">
+                        <div class="bg-primary-subtle rounded p-3">
+                            <p
+                                class="mb-1 text-secondary"
+                                style="font-size: 14px"
+                            >
+                                <i class="bi bi-person"></i>
+                                <span> ব্যাচ ২</span>
+                            </p>
+                            <p class="mb-0 fw-bold" style="font-size: 12px">
+                                নতুন ব্যাচ
+                            </p>
+                        </div>
+                        <div class="bg-warning-subtle rounded p-3">
+                            <p
+                                class="mb-1 text-secondary"
+                                style="font-size: 14px"
+                            >
+                                <i class="bi bi-calendar-week"></i>
+                                <span> শুরু হবে</span>
+                            </p>
+                            <p class="mb-0 fw-bold" style="font-size: 12px">
+                                মঙ্গলবার, ২৮ নভে
+                            </p>
+                        </div>
+                        <div class="bg-info-subtle rounded p-3">
+                            <p
+                                class="mb-1 text-secondary"
+                                style="font-size: 14px"
+                            >
+                                <i class="bi bi-calendar-check"></i>
+                                <span>ক্লাস শিডিউল</span>
+                            </p>
+                            <p class="mb-0 fw-bold" style="font-size: 12px">
+                                মঙ্গল ,শনি (রাত ৯:০০ - ১০:৩০)
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="d-flex gap-3">
+                            <a
+                                href="#study"
+                                class="course-btn border rounded px-4 py-2 fw-bold course-btn-active"
+                                style="font-size: 14px"
+                                >স্টাডি প্ল্যান</a
+                            >
+                            <a
+                                href="#instructor"
+                                class="course-btn border rounded px-4 py-2 fw-bold"
+                                style="font-size: 14px"
+                                >ইন্সট্রাক্টর</a
+                            >
+                            <a
+                                href="#course"
+                                class="course-btn border rounded px-4 py-2 fw-bold"
+                                style="font-size: 14px"
+                                >কোর্স সম্পর্কে</a
+                            >
+                            <a
+                                href="#help"
+                                class="course-btn border rounded px-4 py-2 fw-bold"
+                                style="font-size: 14px"
+                                s
+                                >হেল্প</a
+                            >
+                        </div>
+
+                        <div class="mt-5" id="study">
+                            <div class="d-flex gap-3 align-items-center">
+                                <h6 class="fw-bold">স্টাডি প্ল্যান</h6>
+                                <p
+                                    class="text-secondary mb-0"
+                                    style="font-size: 12px"
+                                >
+                                    <i class="bi bi-dot"></i> ১৬ টি মডিউল
+                                </p>
+                                <p
+                                    class="text-secondary mb-0"
+                                    style="font-size: 12px"
+                                >
+                                    <i class="bi bi-dot"></i> ৪৮ টি লাইভ ক্লাস
+                                </p>
+                                <p
+                                    class="text-secondary mb-0"
+                                    style="font-size: 12px"
+                                >
+                                    <i class="bi bi-dot"></i> ১৬ টি এসাইনমেন্ট
+                                </p>
+                                <p
+                                    class="text-secondary mb-0"
+                                    style="font-size: 12px"
+                                >
+                                    <i class="bi bi-dot"></i> ৩২ টি টেস্ট
+                                </p>
+                            </div>
+                            <hr />
+
+                            <div class="mt-5">
+                                <div
+                                    class="accordion accordion-flush border mt-2 items-module"
+                                    id="accordionFlushExample"
+                                >
+                                    <div class="accordion-item">
+                                        <h2
+                                            class="accordion-header"
+                                            id="flush-headingOne"
+                                        >
+                                            <div
+                                                class="accordion-button collapsed d-flex gap-4"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#flush-collapseOne"
+                                                aria-expanded="false"
+                                                aria-controls="flush-collapseOne"
+                                            >
+                                                <div
+                                                    class="bg-warning-subtle p-3 text-center rounded"
+                                                >
+                                                    <p class="mb-2">মডিউল</p>
+                                                    <h5 class="fw-bold mb-0">
+                                                        ১
+                                                    </h5>
+                                                </div>
+                                                <div>
+                                                    <h5
+                                                        class="fw-bold"
+                                                        style="font-size: 14px"
+                                                    >
+                                                        শুরুর আগের শুরু, স্টেপ
+                                                        জিরো
+                                                    </h5>
+                                                    <div
+                                                        class="d-flex gap-3 align-items-center mt-3"
+                                                    >
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            <i
+                                                                class="bi bi-fast-forward-circle"
+                                                            ></i>
+                                                            ২ টি লাইভ ক্লাস
+                                                        </p>
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            <i
+                                                                class="bi bi-file-earmark"
+                                                            ></i>
+                                                            ১ টি এসাইনমেন্ট
+                                                        </p>
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            <i
+                                                                class="bi bi-file-earmark-text"
+                                                            ></i>
+                                                            ২ টি টেস্ট
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </h2>
+                                        <div
+                                            id="flush-collapseOne"
+                                            class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headingOne"
+                                            data-bs-parent="#accordionFlushExample"
+                                        >
+                                            <div class="accordion-body">
+                                                <hr />
+                                                <div>
+                                                    <div
+                                                        class="d-flex gap-3 align-items-center"
+                                                    >
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            ১ম দিন
+                                                        </p>
+                                                        <p
+                                                            class="mb-0 bg-dark text-white rounded-5 fw-bold px-3 py-2"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            লাইভ ক্লাস
+                                                        </p>
+                                                    </div>
+                                                    <h5
+                                                        class="mt-3"
+                                                        style="font-size: 16px"
+                                                    >
+                                                        Life Cycle Hooks
+                                                    </h5>
+                                                </div>
+                                                <hr />
+                                                <div>
+                                                    <div
+                                                        class="d-flex gap-3 align-items-center"
+                                                    >
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            ২য় দিন
+                                                        </p>
+                                                        <p
+                                                            class="mb-0 bg-dark text-white rounded-5 fw-bold px-3 py-2"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            লাইভ ক্লাস
+                                                        </p>
+                                                    </div>
+                                                    <h5
+                                                        class="mt-3"
+                                                        style="font-size: 16px"
+                                                    >
+                                                        Conceptual Class: Simple
+                                                        Project 📝Add_Notes
+                                                    </h5>
+                                                </div>
+                                                <hr />
+                                                <div>
+                                                    <div
+                                                        class="d-flex gap-3 align-items-center"
+                                                    >
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            ৩য় দিন
+                                                        </p>
+                                                        <p
+                                                            class="mb-0 bg-dark text-white rounded-5 fw-bold px-3 py-2"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            লাইভ ক্লাস
+                                                        </p>
+                                                    </div>
+                                                    <h5
+                                                        class="mt-3"
+                                                        style="font-size: 16px"
+                                                    >
+                                                        Basic Components, Props
+                                                        And Props Validation
+                                                    </h5>
+                                                </div>
+                                                <hr />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="accordion accordion-flush border mt-4 items-module"
+                                    id="accordionFlushExample1"
+                                >
+                                    <div class="accordion-item">
+                                        <h2
+                                            class="accordion-header"
+                                            id="flush-headingTwo"
+                                        >
+                                            <div
+                                                class="accordion-button collapsed d-flex gap-4"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#flush-collapseTwo"
+                                                aria-expanded="false"
+                                                aria-controls="flush-collapseTwo"
+                                            >
+                                                <div
+                                                    class="bg-warning-subtle p-3 text-center rounded"
+                                                >
+                                                    <p class="mb-2">মডিউল</p>
+                                                    <h5 class="fw-bold mb-0">
+                                                        ২
+                                                    </h5>
+                                                </div>
+                                                <div>
+                                                    <h5
+                                                        class="fw-bold"
+                                                        style="font-size: 14px"
+                                                    >
+                                                        কোডিং ইন্টারভিউয়ের সাথে
+                                                        পরিচিতি
+                                                    </h5>
+                                                    <div
+                                                        class="d-flex gap-3 align-items-center mt-3"
+                                                    >
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            <i
+                                                                class="bi bi-fast-forward-circle"
+                                                            ></i>
+                                                            ২ টি লাইভ ক্লাস
+                                                        </p>
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            <i
+                                                                class="bi bi-file-earmark"
+                                                            ></i>
+                                                            ১ টি এসাইনমেন্ট
+                                                        </p>
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            <i
+                                                                class="bi bi-file-earmark-text"
+                                                            ></i>
+                                                            ২ টি টেস্ট
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </h2>
+                                        <div
+                                            id="flush-collapseTwo"
+                                            class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headingTwo"
+                                            data-bs-parent="#accordionFlushExample1"
+                                        >
+                                            <div class="accordion-body">
+                                                <hr />
+                                                <div>
+                                                    <div
+                                                        class="d-flex gap-3 align-items-center"
+                                                    >
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            ১ম দিন
+                                                        </p>
+                                                        <p
+                                                            class="mb-0 bg-dark text-white rounded-5 fw-bold px-3 py-2"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            লাইভ ক্লাস
+                                                        </p>
+                                                    </div>
+                                                    <h5
+                                                        class="mt-3"
+                                                        style="font-size: 16px"
+                                                    >
+                                                        Life Cycle Hooks
+                                                    </h5>
+                                                </div>
+                                                <hr />
+                                                <div>
+                                                    <div
+                                                        class="d-flex gap-3 align-items-center"
+                                                    >
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            ২য় দিন
+                                                        </p>
+                                                        <p
+                                                            class="mb-0 bg-dark text-white rounded-5 fw-bold px-3 py-2"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            লাইভ ক্লাস
+                                                        </p>
+                                                    </div>
+                                                    <h5
+                                                        class="mt-3"
+                                                        style="font-size: 16px"
+                                                    >
+                                                        Conceptual Class: Simple
+                                                        Project 📝Add_Notes
+                                                    </h5>
+                                                </div>
+                                                <hr />
+                                                <div>
+                                                    <div
+                                                        class="d-flex gap-3 align-items-center"
+                                                    >
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            ৩য় দিন
+                                                        </p>
+                                                        <p
+                                                            class="mb-0 bg-dark text-white rounded-5 fw-bold px-3 py-2"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            লাইভ ক্লাস
+                                                        </p>
+                                                    </div>
+                                                    <h5
+                                                        class="mt-3"
+                                                        style="font-size: 16px"
+                                                    >
+                                                        Basic Components, Props
+                                                        And Props Validation
+                                                    </h5>
+                                                </div>
+                                                <hr />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="accordion accordion-flush border mt-4 items-module"
+                                    id="accordionFlushExample2"
+                                >
+                                    <div class="accordion-item">
+                                        <h2
+                                            class="accordion-header"
+                                            id="flush-headingThree"
+                                        >
+                                            <div
+                                                class="accordion-button collapsed d-flex gap-4"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#flush-collapseThree"
+                                                aria-expanded="false"
+                                                aria-controls="flush-collapseThree"
+                                            >
+                                                <div
+                                                    class="bg-warning-subtle p-3 text-center rounded"
+                                                >
+                                                    <p class="mb-2">মডিউল</p>
+                                                    <h5 class="fw-bold mb-0">
+                                                        ৩
+                                                    </h5>
+                                                </div>
+                                                <div>
+                                                    <h5
+                                                        class="fw-bold"
+                                                        style="font-size: 14px"
+                                                    >
+                                                        Step 2: Start Coding!
+                                                    </h5>
+                                                    <div
+                                                        class="d-flex gap-3 align-items-center mt-3"
+                                                    >
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            <i
+                                                                class="bi bi-fast-forward-circle"
+                                                            ></i>
+                                                            ২ টি লাইভ ক্লাস
+                                                        </p>
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            <i
+                                                                class="bi bi-file-earmark"
+                                                            ></i>
+                                                            ১ টি এসাইনমেন্ট
+                                                        </p>
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            <i
+                                                                class="bi bi-file-earmark-text"
+                                                            ></i>
+                                                            ২ টি টেস্ট
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </h2>
+                                        <div
+                                            id="flush-collapseThree"
+                                            class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headingThree"
+                                            data-bs-parent="#accordionFlushExample2"
+                                        >
+                                            <div class="accordion-body">
+                                                <hr />
+                                                <div>
+                                                    <div
+                                                        class="d-flex gap-3 align-items-center"
+                                                    >
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            ১ম দিন
+                                                        </p>
+                                                        <p
+                                                            class="mb-0 bg-dark text-white rounded-5 fw-bold px-3 py-2"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            লাইভ ক্লাস
+                                                        </p>
+                                                    </div>
+                                                    <h5
+                                                        class="mt-3"
+                                                        style="font-size: 16px"
+                                                    >
+                                                        Life Cycle Hooks
+                                                    </h5>
+                                                </div>
+                                                <hr />
+                                                <div>
+                                                    <div
+                                                        class="d-flex gap-3 align-items-center"
+                                                    >
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            ২য় দিন
+                                                        </p>
+                                                        <p
+                                                            class="mb-0 bg-dark text-white rounded-5 fw-bold px-3 py-2"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            লাইভ ক্লাস
+                                                        </p>
+                                                    </div>
+                                                    <h5
+                                                        class="mt-3"
+                                                        style="font-size: 16px"
+                                                    >
+                                                        Conceptual Class: Simple
+                                                        Project 📝Add_Notes
+                                                    </h5>
+                                                </div>
+                                                <hr />
+                                                <div>
+                                                    <div
+                                                        class="d-flex gap-3 align-items-center"
+                                                    >
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            ৩য় দিন
+                                                        </p>
+                                                        <p
+                                                            class="mb-0 bg-dark text-white rounded-5 fw-bold px-3 py-2"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            লাইভ ক্লাস
+                                                        </p>
+                                                    </div>
+                                                    <h5
+                                                        class="mt-3"
+                                                        style="font-size: 16px"
+                                                    >
+                                                        Basic Components, Props
+                                                        And Props Validation
+                                                    </h5>
+                                                </div>
+                                                <hr />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="accordion accordion-flush border mt-4 items-module"
+                                    id="accordionFlushExample4"
+                                    style="display: none"
+                                >
+                                    <div class="accordion-item">
+                                        <h2
+                                            class="accordion-header"
+                                            id="flush-headingFour"
+                                        >
+                                            <div
+                                                class="accordion-button collapsed d-flex gap-4"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#flush-collapseFour"
+                                                aria-expanded="false"
+                                                aria-controls="flush-collapseFour"
+                                            >
+                                                <div
+                                                    class="bg-warning-subtle p-3 text-center rounded"
+                                                >
+                                                    <p class="mb-2">মডিউল</p>
+                                                    <h5 class="fw-bold mb-0">
+                                                        ৪
+                                                    </h5>
+                                                </div>
+                                                <div>
+                                                    <h5
+                                                        class="fw-bold"
+                                                        style="font-size: 14px"
+                                                    >
+                                                        Step 2: Start Coding!
+                                                    </h5>
+                                                    <div
+                                                        class="d-flex gap-3 align-items-center mt-3"
+                                                    >
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            <i
+                                                                class="bi bi-fast-forward-circle"
+                                                            ></i>
+                                                            ২ টি লাইভ ক্লাস
+                                                        </p>
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            <i
+                                                                class="bi bi-file-earmark"
+                                                            ></i>
+                                                            ১ টি এসাইনমেন্ট
+                                                        </p>
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            <i
+                                                                class="bi bi-file-earmark-text"
+                                                            ></i>
+                                                            ২ টি টেস্ট
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </h2>
+                                        <div
+                                            id="flush-collapseFour"
+                                            class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headingFour"
+                                            data-bs-parent="#accordionFlushExample4"
+                                        >
+                                            <div class="accordion-body">
+                                                <hr />
+                                                <div>
+                                                    <div
+                                                        class="d-flex gap-3 align-items-center"
+                                                    >
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            ১ম দিন
+                                                        </p>
+                                                        <p
+                                                            class="mb-0 bg-dark text-white rounded-5 fw-bold px-3 py-2"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            লাইভ ক্লাস
+                                                        </p>
+                                                    </div>
+                                                    <h5
+                                                        class="mt-3"
+                                                        style="font-size: 16px"
+                                                    >
+                                                        Life Cycle Hooks
+                                                    </h5>
+                                                </div>
+                                                <hr />
+                                                <div>
+                                                    <div
+                                                        class="d-flex gap-3 align-items-center"
+                                                    >
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            ২য় দিন
+                                                        </p>
+                                                        <p
+                                                            class="mb-0 bg-dark text-white rounded-5 fw-bold px-3 py-2"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            লাইভ ক্লাস
+                                                        </p>
+                                                    </div>
+                                                    <h5
+                                                        class="mt-3"
+                                                        style="font-size: 16px"
+                                                    >
+                                                        Conceptual Class: Simple
+                                                        Project 📝Add_Notes
+                                                    </h5>
+                                                </div>
+                                                <hr />
+                                                <div>
+                                                    <div
+                                                        class="d-flex gap-3 align-items-center"
+                                                    >
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            ৩য় দিন
+                                                        </p>
+                                                        <p
+                                                            class="mb-0 bg-dark text-white rounded-5 fw-bold px-3 py-2"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            লাইভ ক্লাস
+                                                        </p>
+                                                    </div>
+                                                    <h5
+                                                        class="mt-3"
+                                                        style="font-size: 16px"
+                                                    >
+                                                        Basic Components, Props
+                                                        And Props Validation
+                                                    </h5>
+                                                </div>
+                                                <hr />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="accordion accordion-flush border mt-4 items-module"
+                                    id="accordionFlushExample5"
+                                    style="display: none"
+                                >
+                                    <div class="accordion-item">
+                                        <h2
+                                            class="accordion-header"
+                                            id="flush-headingFive"
+                                        >
+                                            <div
+                                                class="accordion-button collapsed d-flex gap-4"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#flush-collapseFive"
+                                                aria-expanded="false"
+                                                aria-controls="flush-collapseFive"
+                                            >
+                                                <div
+                                                    class="bg-warning-subtle p-3 text-center rounded"
+                                                >
+                                                    <p class="mb-2">মডিউল</p>
+                                                    <h5 class="fw-bold mb-0">
+                                                        ৫
+                                                    </h5>
+                                                </div>
+                                                <div>
+                                                    <h5
+                                                        class="fw-bold"
+                                                        style="font-size: 14px"
+                                                    >
+                                                        Step 2: Start Coding!
+                                                    </h5>
+                                                    <div
+                                                        class="d-flex gap-3 align-items-center mt-3"
+                                                    >
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            <i
+                                                                class="bi bi-fast-forward-circle"
+                                                            ></i>
+                                                            ২ টি লাইভ ক্লাস
+                                                        </p>
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            <i
+                                                                class="bi bi-file-earmark"
+                                                            ></i>
+                                                            ১ টি এসাইনমেন্ট
+                                                        </p>
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            <i
+                                                                class="bi bi-file-earmark-text"
+                                                            ></i>
+                                                            ২ টি টেস্ট
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </h2>
+                                        <div
+                                            id="flush-collapseFive"
+                                            class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headingFive"
+                                            data-bs-parent="#accordionFlushExample5"
+                                        >
+                                            <div class="accordion-body">
+                                                <hr />
+                                                <div>
+                                                    <div
+                                                        class="d-flex gap-3 align-items-center"
+                                                    >
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            ১ম দিন
+                                                        </p>
+                                                        <p
+                                                            class="mb-0 bg-dark text-white rounded-5 fw-bold px-3 py-2"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            লাইভ ক্লাস
+                                                        </p>
+                                                    </div>
+                                                    <h5
+                                                        class="mt-3"
+                                                        style="font-size: 16px"
+                                                    >
+                                                        Life Cycle Hooks
+                                                    </h5>
+                                                </div>
+                                                <hr />
+                                                <div>
+                                                    <div
+                                                        class="d-flex gap-3 align-items-center"
+                                                    >
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            ২য় দিন
+                                                        </p>
+                                                        <p
+                                                            class="mb-0 bg-dark text-white rounded-5 fw-bold px-3 py-2"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            লাইভ ক্লাস
+                                                        </p>
+                                                    </div>
+                                                    <h5
+                                                        class="mt-3"
+                                                        style="font-size: 16px"
+                                                    >
+                                                        Conceptual Class: Simple
+                                                        Project 📝Add_Notes
+                                                    </h5>
+                                                </div>
+                                                <hr />
+                                                <div>
+                                                    <div
+                                                        class="d-flex gap-3 align-items-center"
+                                                    >
+                                                        <p
+                                                            class="text-secondary mb-0"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            ৩য় দিন
+                                                        </p>
+                                                        <p
+                                                            class="mb-0 bg-dark text-white rounded-5 fw-bold px-3 py-2"
+                                                            style="
+                                                                font-size: 12px;
+                                                            "
+                                                        >
+                                                            লাইভ ক্লাস
+                                                        </p>
+                                                    </div>
+                                                    <h5
+                                                        class="mt-3"
+                                                        style="font-size: 16px"
+                                                    >
+                                                        Basic Components, Props
+                                                        And Props Validation
+                                                    </h5>
+                                                </div>
+                                                <hr />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button
+                                    id="toggleItems"
+                                    class="btn border rounded mt-4 w-100 fw-bold py-2 btn-all-course"
+                                    style="font-size: 14px"
+                                >
+                                    আরো ১২টি দেখুন
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="mt-5" id="instructor">
+                            <h6 class="fw-bold">ইন্সট্রাক্টর</h6>
+                            <hr />
+                            <div class="bg-primary-subtle rounded p-3 mt-4">
+                                <div class="d-flex gap-3 align-items-center">
+                                    <div class="img-in">
+                                        <img
+                                            src="./img/Image/image-8.jpeg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div>
+                                        <h6 class="fw-bold mb-1">Jone Deo</h6>
+                                        <p class="mb-0" style="font-size: 12px">
+                                            Founder, Learn with Shwapnoacademy
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-5" id="course">
+                            <h6 class="fw-bold">কোর্স সম্পর্কে</h6>
+                            <hr />
+                            <div class="mt-4">
+                                <p class="lh-lg" style="text-align: justify">
+                                    বাংলাদেশের শিক্ষিত যুব সমাজের বেকারত্বকে দূর
+                                    করতে এবং নতুন এক শিক্ষা ব্যবস্থা উপহার দিতে
+                                    স্বপ্ন একাডেমি ২০১৮ ইং থেকে যাত্রা শুরু করে
+                                    । বর্তমান যুগে স্কিল এর বিকল্প কিছু নাই তাই
+                                    স্কিল ডেভলপমেন্ট করতে বেছে নিতে হবে স্বপ্ন
+                                    একাডেমিকে। কারন স্বপ্ন একাডেমি দেশসেরা
+                                    প্রশিক্ষক, কোর্সেস এবং ক্যারিয়ার গাইডলাইন
+                                    নিয়ে এসেছি আপনাদের জন্য ।
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="mt-5" id="help">
+                            <h6 class="fw-bold">হেল্প</h6>
+                            <hr />
+                            <div class="mt-4">
+                                <p class="lh-lg" style="text-align: justify">
+                                    ব্যাচ সংক্রান্ত যেকোনো তথ্যের জন্যে কল করুন
+                                    +880190000003424 (সকাল ১০টা থেকে রাত ১০টা)
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="mt-5">
+                            <h6 class="fw-bold">পেমেন্ট</h6>
+                            <hr />
+                            <div class="mt-4">
+                                <p
+                                    class="lh-lg mb-3"
+                                    style="text-align: justify"
+                                >
+                                    লাইভ ব্যাচে জয়েন করতে ও পেমেন্ট করতে চাইলে-
+                                </p>
+                                <div>
+                                    <p class="mb-1">
+                                        ১। "জয়েন লাইভ ব্যাচ" বাটনে ক্লিক করুন
+                                    </p>
+                                    <p class="mb-1">
+                                        ২। আপনার ব্যাচের শিডিউল সিলেক্ট করুন
+                                    </p>
+                                    <p class="mb-1">
+                                        ৩। "Purchase" বাটনে ক্লিক করুন
+                                    </p>
+                                    <p class="mb-1">
+                                        ৪। আপনার সুবিধামত পেমেন্ট মেথড সিলেক্ট
+                                        করুন
+                                    </p>
+                                    <p class="mb-1">
+                                        ৫। পেমেন্ট কমপ্লিট করে দিন
+                                    </p>
+                                </div>
+                                <p
+                                    class="lh-lg mt-3"
+                                    style="text-align: justify"
+                                >
+                                    প্রসেস শেষ হলে আপনার কাছে একটি মেসেজ আসবে
+                                    এবং আপনার ড্যাশবোর্ডে আপনার জয়েন করা ব্যাচটি
+                                    দেখাবে। আপনার স্টাডি প্লান অনুযায়ী কোর্স
+                                    শুরু করে দিন।
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-details-right position-relative">
+                    <div class="course-details-poitions">
+                        <div class="border rounded">
+                            <div class="">
+                                <iframe
+                                    width="100%"
+                                    height="224"
+                                    class="rounded-end-1 rounded-top-1"
+                                    src="https://www.youtube.com/embed/zrlYnaZftEQ"
+                                    title="Course Trailer | IELTS Course by Munzereen Shahid"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen
+                                ></iframe>
+                            </div>
+
+                            <div class="course-cotent-details p-3">
+                                <div class="d-flex gap-2 align-items-center">
+                                    <h5 class="fw-semibold">৳3850</h5>
+                                    <div class="d-flex align-items-center">
+                                        <h6
+                                            class="text-decoration-line-through"
+                                        >
+                                            ৳5000
+                                        </h6>
+                                        <p class="text-secondary mt-3">/</p>
+                                        <p
+                                            class="text-secondary mt-3"
+                                            style="font-size: 12px"
+                                        >
+                                            ফুল কোর্স (মেয়াদ ১ বছর)
+                                        </p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <button class="btn w-100 btn-color">
+                                        কোর্সটি কিনুন
+                                    </button>
+                                </div>
+
+                                <ul class="course-list mt-3">
+                                    <li
+                                        class="mb-2 text-secondary d-flex gap-2 align-items-center"
+                                    >
+                                        <i class="bi bi-people-fill"></i>
+                                        <span>কোর্সটি করছেন ২৭২০৮ জন </span>
+                                    </li>
+                                    <li
+                                        class="mb-2 text-secondary d-flex gap-2 align-items-center"
+                                    >
+                                        <i class="bi bi-clock-fill"></i>
+                                        <span>সময় লাগবে ৫০ ঘন্টা </span>
+                                    </li>
+                                    <li
+                                        class="mb-2 text-secondary d-flex gap-2 align-items-center"
+                                    >
+                                        <i
+                                            class="bi bi-fast-forward-circle-fill"
+                                        ></i>
+                                        <span>৫৪টি ভিডিও </span>
+                                    </li>
+                                    <li
+                                        class="mb-2 text-secondary d-flex gap-2 align-items-center"
+                                    >
+                                        <i class="bi bi-book-fill"></i>
+                                        <span
+                                            >১০টি রিডিং এবং ১০টি লিসেনিং মক
+                                            টেস্ট
+                                        </span>
+                                    </li>
+                                    <li
+                                        class="mb-2 text-secondary d-flex gap-2 align-items-center"
+                                    >
+                                        <i class="bi bi-file-earmark-fill"></i>
+                                        <span>৩৮টি লেকচার শিট</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer_section pt-5 pb-3 border-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="">
+                        <div class="footer-logo">
+                            <img src="./img/logo.png" />
+                        </div>
+
+                        <p class="footer-description">
+                            স্বপ্ন একাডেমি বাংলাদেশের অন্যতম সেরা ই-লার্নিং
+                            স্কিল ডেভেলপমেন্ট প্ল্যাটফর্ম। দক্ষতা উন্নয়নের
+                            মাধ্যমে দেশ থেকে বেকারত্ব দূরীকরণ এবং বৈশ্বিক
+                            মানবসম্পদ তৈরিতে আমরা প্রতিশ্রুতিবদ্ধ।
+                        </p>
+                    </div>
+
+                    <!--footer item2 -->
+                    <div class="footer-item2">
+                        <div class="footer__item ms-2">
+                            <div class="footer__item--title">
+                                <h5 class="fw-bold footer-title">যোগাযোগ</h5>
+                            </div>
+                            <div class="footer__item--list">
+                                <p class="footer-contact">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <span
+                                        >পাবেল টয়ার, মাদরীপুর সদর,
+                                        মাদারীপুর-৭০০</span
+                                    >
+                                </p>
+
+                                <p class="footer-contact">
+                                    <i class="bi bi-envelope"></i>
+                                    <span>shwapnoacademy@gmail.com</span>
+                                </p>
+
+                                <p class="footer-contact">
+                                    <i class="bi bi-telephone"></i>
+                                    <span>8801910831366</span>
+                                </p>
+                            </div>
+                            <p class="social-icon">
+                                <a href="" target="_blank">
+                                    <i class="bi bi-facebook icons"></i
+                                ></a>
+                                <a href="" target="_blank">
+                                    <i class="bi bi-instagram icons"></i
+                                ></a>
+                                <a href="" target="_blank">
+                                    <i
+                                        class="bi bi-youtube icons"
+                                        style="font-size: 22px"
+                                    ></i
+                                ></a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--footer item3 -->
+                    <div class="footer-item3">
+                        <div class="footer__item ms-2">
+                            <div class="footer__item--title">
+                                <h5 class="fw-bold footer-title">
+                                    জনপ্রিয় কোর্স
+                                </h5>
+                            </div>
+                            <div class="footer__item--list">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item mb-2">
+                                        <a href="" class="footer-link"
+                                            >ডিজিটাল মার্কেটিং</a
+                                        >
+                                    </li>
+                                    <li class="nav-item mb-2">
+                                        <a href="" class="footer-link"
+                                            >মাইক্রোসফট অফিস</a
+                                        >
+                                    </li>
+                                    <li class="nav-item mb-2">
+                                        <a href="" class="footer-link"
+                                            >লিডনোরেশন</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="footer-link"
+                                            >ইউটিউব মার্কেটিং</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer item">
+                        <div class="footer__item">
+                            <div class="footer__item--title">
+                                <h5 class="fw-bold footer-title">অন্যান্য</h5>
+                            </div>
+                            <div class="footer__item--list">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item mb-2">
+                                        <a href="" class="footer-link"
+                                            >স্বপ্ন একাডেমি সম্পর্কে জানুন</a
+                                        >
+                                    </li>
+                                    <li class="nav-item mb-2">
+                                        <a href="" class="footer-link"
+                                            >যোগাযোগ করুন</a
+                                        >
+                                    </li>
+                                    <li class="nav-item mb-2">
+                                        <a href="" class="footer-link">ব্লগ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <x-link href="" class="footer-link"
+                                            >সাফল্যের গল্প</x-link
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <p class="copy">
+                    ©Copyright 2023 Shwapno Academy. All rights reserved.
+                    <span class="fw-bold"
+                        >Design Developed by (Flash IT Pro)</span
+                    >
+                </p>
+            </div>
+        </footer>
+
+        <!-- Bootstrap scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script src="./js/app.js"></script>
+
+        <script>
+            document
+                .getElementById('toggleItems')
+                .addEventListener('click', function () {
+                    // Get all items
+                    let items = document.querySelectorAll('.items-module');
+
+                    // Toggle the visibility of each item starting from index 3
+                    for (let i = 3; i < items.length; i++) {
+                        items[i].style.display =
+                            items[i].style.display === 'none' ||
+                            items[i].style.display === ''
+                                ? 'block'
+                                : 'none';
+                    }
+
+                    // Change button text
+                    const buttonText = document.getElementById('toggleItems');
+                    buttonText.innerText =
+                        buttonText.innerText === 'কমিয়ে দেখুন'
+                            ? 'আরো ১২টি দেখুন'
+                            : 'কমিয়ে দেখুন';
+                });
+        </script>
+    </body>
+</html>
